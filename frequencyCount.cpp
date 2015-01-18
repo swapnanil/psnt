@@ -27,9 +27,6 @@ int main(){
         lowerLimit[j++]=ll;
     }
     int tc=j-1;
-    //cout<<"Lower limits:\n";
-    //for(j=1; j<=tc; j++)cout<<lowerLimit[j]<<" ";
-    //cout<<endl;
     for(i=1; i<=n; i++){
         for(j=1; j<=tc+1; j++){
             if(x[i]>=lowerLimit[j] && x[i]<lowerLimit[j+1]){
